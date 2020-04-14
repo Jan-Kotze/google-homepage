@@ -5,7 +5,7 @@ body {
 
 
 div .oupa {
-    box-sizing: content-box;
+
     display: flex;
     float: right;
     line-height: normal;
@@ -31,45 +31,50 @@ div .pa {
 
 }
 
+div .ma {
+
+    display: inline-block;
+
+    line-height: 24px;
+    position: relative;
+
+
+}
 
 div .pa:hover {
     opacity: .85;
     text-decoration: underline;
 }
 
-/*
-div .seun {
-    box-sizing: content-box;
-    display: block;
-    float: none;
-    line-height: normal;
-    position: static;
-    z-index: auto;
-}
-*/
+div #squares {
 
-/*
-div .dogter {
-    box-sizing: content-box;
-    display: block;
-    float: none;
-    line-height: normal;
-    position: relative;
-    z-index: auto;
+    opacity: .55;
+
+
 }
-*/
+
+
+div #squares:hover {
+    opacity: 1;
+    color: #222;
+
+}
+
 a {
-    display: block;
+
     color: #000;
     text-align: center;
     padding: 10px;
     text-decoration: none;
 }
 
-.logo {
-    display: block;
-    margin: 0px auto;
-    padding: 20px;
+#logo {
+    display: flex;
+    text-align: center;
+    padding-top: 109px;
+    height: 72px;
+    width: auto;
+    
 }
 
 .form {
@@ -104,4 +109,7 @@ a {
 
 #profile-pic {
     border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
 }
