@@ -5,40 +5,29 @@ body {
 
 
 div .oupa {
-
     display: flex;
     float: right;
     line-height: normal;
     position: static;
-
     font-size: 13px;
     min-width: 181px;
     padding-left: 30px;
     padding-right: 30px;
-
     text-align: right;
     align-items: center;
     justify-content: flex-end;
 }
 
 div .pa {
-
     display: inline-block;
-
     line-height: 24px;
     position: relative;
-
-
 }
 
 div .ma {
-
     display: inline-block;
-
     line-height: 24px;
     position: relative;
-
-
 }
 
 div .pa:hover {
@@ -47,21 +36,16 @@ div .pa:hover {
 }
 
 div #squares {
-
     opacity: .55;
-
-
 }
 
 
 div #squares:hover {
     opacity: 1;
     color: #222;
-
 }
 
 a {
-
     color: #000;
     text-align: center;
     padding: 10px;
@@ -69,12 +53,10 @@ a {
 }
 
 #logo {
-    display: flex;
     text-align: center;
     padding-top: 109px;
     height: 72px;
     width: auto;
-    
 }
 
 .form {
