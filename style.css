@@ -2,8 +2,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 div .oupa {
     float: right;
     font-size: 13px;
@@ -112,4 +110,45 @@ a {
 
 #grys {
     background-color: rgba(45, 45, 45, 0.1);
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    padding-left: 27px;
+    padding-bottom: 10px;
+    color: rgba(0,0,0,0.54);
+    border:1px solid #e4e4e4
+}
+
+#grys2 {
+    background-color: rgba(45, 45, 45, 0.1);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    padding-left: 27px;
+    padding-top: 10px;
+    border:1px solid #e4e4e4;
+    font-size: 14px;
+}
+
+#grys3 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 30px;
+    padding-right: 27px;
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: right;
+}
+
+#voet {
+    color: rgba(0,0,0,0.54);
+}
+
+#voet:hover {
+    text-decoration: underline;
 }
